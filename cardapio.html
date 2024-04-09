@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: hsla(0, 0%, 96%, 0);
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .category {
+            margin-bottom: 20px;
+        }
+        .category h2 {
+            color: #666;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+        }
+        .products li {
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="img-container">
+            <img id="logo" src="imagens/logofinal.png" alt="logomarca">  
+        </div>
+    </header>
+    <div class="cardapio">
+        <h1><mark style="background-color:#8b7246">Nosso Cardápio</mark></h1>
+        <div class="container">
+            <h1><mark style="background-color: #a47d39;">Lista de Produtos</mark></h1>
+            
+            <div class="category">
+                <h2><strong>Cafés</strong></h2>
+                <ul class="products">
+                    <li>Expresso</li>
+                    <li>Cappuccino</li>
+                    <li>Latte</li>
+                </ul>
+            </div>
+            
+            <div class="category">
+                <h2>Doces Especiais</h2>
+                <ul class="products">
+                    <li>Torta de Chocolate</li>
+                    <li>Macarons</li>
+                    <li>Pudim de Leite</li>
+                </ul>
+            </div>
+            
+            <div class="category">
+                <h2>Frutas</h2>
+                <ul class="products">
+                    <li>Maçã</li>
+                    <li>Banana</li>
+                    <li>Morango</li>
+                </ul>
+            </div>
+            
+            <div class="category">
+                <h2>Pães</h2>
+                <ul class="products">
+                    <li>Pão Francês</li>
+                    <li>Baguete</li>
+                    <li>Croissant</li>
+                </ul>
+            </div>
+        </div>
+        <a href="index.html" target="_self">Voltar para a página principal.</a>
+    </div>
+</body>
+</html>
